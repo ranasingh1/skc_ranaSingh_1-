@@ -47,7 +47,7 @@ export default function ConfigPage() {
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
           <label htmlFor="apiKey" className="block text-lg mb-2 text-blue-600">
-            Your Special Magic Key:
+            Your Special Magic Key(OpenAI API Key):
           </label>
           <Input
             id="apiKey"
